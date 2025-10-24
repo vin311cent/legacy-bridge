@@ -5,8 +5,10 @@ Parses legacy `.dat` fixed-width files → outputs JSON → serves REST API.
 
 ## Setup
 ```bash
-npm start        # run API server
-npx jest         # run tests
+npm start            # run API server
+npx jest             # run tests
+tsc                  # compiels typescript to javascript
+node dist/export.js  # creats proessed_books.json which store all parsed records
 ```
 
 ## API Endpoints

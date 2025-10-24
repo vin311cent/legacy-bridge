@@ -42,3 +42,23 @@ export async function processDirectory(directoryPath: string): Promise<BookRecor
 
     return allRecords;
 }
+
+/**
+ * Writes an array of BookRecords to a specified JSON file path.
+ * @param records - The array of book records to write.
+ * @param outputFilePath - The path to the output JSON file.
+ */
+export async function writeJsonFile(records: BookRecord[], outputFilePath: string): Promise<void> {
+    try {
+        // Convert the array of records into a formatted JSON string
+        const jsonContent = JSON.stringify(records, null, 2);
+        
+        // Write the JSON string to the file system
+        await fs.writeFile(outputFilePath, jsonContent, 'utf-8');
+        
+        console.log(`Successfully exported ${records.length} records to ${outputFilePath}`);
+    } catch (error) {
+        console.error(`Error writing JSON file to ${outputFilePath}:`, error);
+        throw new Error("Failed to write data to JSON file.");
+    }
+}

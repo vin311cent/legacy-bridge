@@ -1,0 +1,74 @@
+[
+  {
+    "ISBN": "9781234567890",
+    "Title": "The Great Gatsby",
+    "Author": "F. Scott Fitzgerald",
+    "PublishedYear": 1925,
+    "Copies": 3,
+    "sourceFile": "catalog_A-C.dat"
+  },
+  {
+    "ISBN": "9789876543210",
+    "Title": "To Kill a Mockingbird",
+    "Author": "Harper Lee",
+    "PublishedYear": 1960,
+    "Copies": 5,
+    "sourceFile": "catalog_A-C.dat"
+  },
+  {
+    "ISBN": "9781111111111",
+    "Title": "1984",
+    "Author": "George Orwell",
+    "PublishedYear": 1949,
+    "Copies": 2,
+    "sourceFile": "catalog_A-C.dat"
+  },
+  {
+    "ISBN": "9780132350884",
+    "Title": "Domain-Driven Design",
+    "Author": "Eric Evans",
+    "PublishedYear": 2003,
+    "Copies": 90,
+    "sourceFile": "catalog_D-F.dat"
+  },
+  {
+    "ISBN": "9780596805524",
+    "Title": "Effective JavaScript",
+    "Author": "David Herman",
+    "PublishedYear": 2012,
+    "Copies": 120,
+    "sourceFile": "catalog_D-F.dat"
+  },
+  {
+    "ISBN": "9780321125217",
+    "Title": "Design Patterns Explained",
+    "Author": "Alan Shalloway",
+    "PublishedYear": 2002,
+    "Copies": 40,
+    "sourceFile": "catalog_D-F.dat"
+  },
+  {
+    "ISBN": "9780201616224",
+    "Title": "The Pragmatic Programmer",
+    "Author": "Andrew Hunt",
+    "PublishedYear": 1999,
+    "Copies": 100,
+    "sourceFile": "catalog_G-I.dat"
+  },
+  {
+    "ISBN": "9781449331818",
+    "Title": "Introducing Python",
+    "Author": "Bill Lubanovic",
+    "PublishedYear": 2013,
+    "Copies": 110,
+    "sourceFile": "catalog_G-I.dat"
+  },
+  {
+    "ISBN": "9780134190440",
+    "Title": "Introduction to Algorithms",
+    "Author": "Thomas H. Cormen",
+    "PublishedYear": 2009,
+    "Copies": 70,
+    "sourceFile": "catalog_G-I.dat"
+  }
+]
